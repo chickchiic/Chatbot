@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chatbot in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>Chatbot</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Hi there 👋<br>How can I help you today?</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>吳嘉麗教授 - Chia-Li Wu</h1>
+      <i>"為化學與女性貢獻一生，在這世間瀟灑走了㇐回。"</i>
+
+
+      <h3>關於</h3>
+      <ul>
+           <b>▼學歷▼</b>
+          <li>國立台灣大學化學學士</li>
+          <li>威斯康辛大學化學碩士</li>
+          <li>華盛頓大學化學博士 </li>
+      </ul>
+
+
+
+      <h3>學術成就</h3>
+      <ul>
+          <li>發表超過50篇國際期刊論文</li>
+          <li>主持多項國家級研究計畫</li>
+          <li>獲得多個環境科學相關獎項</li>
+          <li>〈女化學家聯誼會〉提名者</li>
+          <li>唯一一位獲此殊榮的台灣化學家</li>
+          <li>主要研究苔蘚類植物的化學組成</li>
+          <li>2011年創立「台灣女科技人學會」</li>
+          <li>曾出版2本大學通識教育書：《化學、醫藥與社會》和《化學、食品與社會》</li>
+          <li>婦女運動者</li>
+
+          <pre>
+          <b>▼經驗▼</b>
+          <li>1976年回台後任教於淡江大學化學系，1976-1982年擔任副教授，1983年升正教授；<br>1986－1988年，以教授身分兼任化學系主任暨研究所所長；<br>2012 年退休。吳教授主要研究領域為苔蘚類植物的化學組成，並從化學分類的觀點，比較台灣、中國<br>及世界各地苔蘚植物組成之差異，研究及教學均有所成。<br>不僅1999年獲得中國化學會特別貢獻獎，2021年再度獲特殊貢獻奬。</li>
+          <li>1982－1987年，擔任婦女新知雜誌創刊時期之社務委員；<br>1987－1993年，擔任婦女新知基金會之第一、二屆董事及第三屆之董事長。</li>
+          <li>2002年有感於女科技人之間缺乏互相連結的渠道，開始籌組女化學家聯誼會，為從事化學研究的女性學<br>者提供一個平台，彼此交流學術及教學經驗，分享教學、研究與家庭兼顧的甘苦。</li>
+          <li>2002－2008年，擔任考試院第十屆考試委員，推動取消數項國家公務人員考試的性別限制。促使考試院<br>於 2005 年公佈「國家考試性別平等白皮書」，亦成立「國家考試性別平等諮詢委員會」。對於推動不<br>分性別均有相同的應考機會，影響甚深。</li>
+          <li>2008年創辦《台灣女科技人電子報》；<br>2009年有感於傳統性別觀念對女性在追夢上的設限，策劃了《看見女科技人：追夢，我的世界宇宙大（上、下）》<br>，透過台灣女性科技人的故事，編輯成當時台灣少見以探討性別與職涯選擇為主題的故事繪本。
+          </li>
+          <li>2009－2011年，再度任淡江大學化學系主任，並擔任台灣女性學學會(Taiwanese Feminist Scholars Association)<br>第十八屆(立案第九屆)、第十九屆(立案第十屆)會長。<br>創刊女學會電子報(2009創刊 -2011年停刊)、擔任2010年女學會「性別研究的轉向：男性／男孩研究的<br>發展與台灣社會的接軌研討會」(該年學術成果集結成《陽剛氣質：國外論述與台灣經驗》)<br>2011年女學會「性別與科技研討會暨女性學學會年度研討會」主辦人。</li>
+          <li>吳嘉麗參與國際性別科技會議時，發現日本、韓國都有不只一個女科技人相關的學會或協會，台灣卻一個<br>都沒有，於是在2011年底成立台灣女科技人學會，希望鼓勵仍為少數的科技女性，提升專業發展，並能經驗傳承，以及與國際交流。</li>
+          <li>2013年，科技部拍攝《女科技人的一天》紀錄片，希望藉由各領域女科技人的經驗，豐富女孩們的多元選擇，<br>其中一部影片便是《當科技遇見性別—植物化學家吳嘉麗》。</li>
+          <li>2013年9月14−17日，在台北福華國際文教會館，舉行「亞太國家聯絡網 (APNN) 會議」及「2013女科技人國際研討會 」<br>(IConWiST, International Conference on Women in Science and Technology)。<br>兩會共邀請國際專家學者近30位，國內引言及主持人近20位，與會人士200多人，推動提升科技及性別方面的交流與合作。</li>
+          <li>2014－2016年，擔任行政院性別平等會委員、婦女權益促進發展基金會常務董事。為推動台灣科技女性與國際間的交流，<br>吳嘉麗代表台灣女科技人協會加入INWES（國際女科技人網絡，International Network of Women Engineers and Scientists），<br>並因積極參與、表現優異，曾獲選為該會理事共2屆 （2014-2020年），<br>[3]並曾擔任此會下分支APNN（亞太女科技人網絡，Asia and Pacific Nation Network ）之主席（2017-2020年），<br>提升台灣科技女性在國際上的能見度與影響力。
+              </li>
+          <li>2018－2021年，為了不讓「華文地區第一家女性主義專業書店—女書店關閉，吳嘉麗接任女書店的負責人。</li>
+          <li>2021年榮獲中國化學會頒發「特殊貢獻獎」，表揚其於「性別與科技」領域的推進，以及提升台灣女科技人的國內外能見度與影響力。</li>
+          <li>2021年10月9日下午，吳嘉麗因急性血癌引發呼吸器官衰竭而逝世。</li>
+      </pre>
+      
+      </ul>
+
+      <h3>研究領域</h3>
+      <p>吳教授的研究領域包括但不限於：</p>
+      <ul>
+          <li>生態系統服務</li>
+          <li>生物多樣性保護</li>
+          <li>氣候變遷的影響</li>
+      </ul>
+
+      <h3>台灣女科技人的一天</h3>
+      <a href="https://www.youtube.com/watch?v=ohDoJy5zCJ4"><img src="img.png"></a>
+
+    </div>
+
+  </body>
+</html>
